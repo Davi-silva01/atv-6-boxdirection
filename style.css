@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-color: rgb(151, 202, 202);
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(154, 199, 184);
+}
+
+nav{
+    text-align: center;
+
+}
+body{
+    background-color: rgb(173, 189, 189);
+}
+
+.container{
+    background-color: rgb(28, 121, 116);
+    height: 100vh;
+    color: brown;
+    display: flex;
+    flex-direction:row;/*mexe na direçao*/
+    justify-content: center;
+    align-items:center ;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}  
+
+
+.jogos{
+    width: 350px;
+    height: 450px;
+    background-color: #f9feff;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items:center;
+
+}
+
+img{
+    width: 200;
+    height: 300;
+}
